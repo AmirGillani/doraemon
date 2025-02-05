@@ -11,7 +11,6 @@ import DarkMode from "./components/DarkMode";
 function App() {
   return (
     <>
- 
       <DarkMode />
       <Home />
       <Navbar />
