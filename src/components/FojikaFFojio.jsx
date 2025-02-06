@@ -24,7 +24,12 @@ export default function FojikaFFojio() {
         <h3 className="font-semibold text-4xl font-doraemon">
           The Magical Minds Behind Doraemon
         </h3>
-        <p className="text-xl m-2">
+        <motion.p className="text-xl m-2"
+        initial={{opacity:0}}
+        whileInView={{opacity:1}}
+        transition={{duration:1,delay:0.5}}
+        viewport={{once:true}}
+        >
           The Birth of Doraemon: Doraemon, the iconic robotic cat, was created
           by Fujiko F. Fujio, a famous Japanese manga artist duo. The character
           first appeared in December 1969, in a manga published in the magazine
@@ -37,7 +42,7 @@ export default function FojikaFFojio() {
           Doraemon was born as a robotic cat sent from the future to help a
           young boy, Nobita. The combination of science fiction and comedy made
           the series appealing to a wide range of audiences
-        </p>
+        </motion.p>
       </div>
     </motion.div>
   );
