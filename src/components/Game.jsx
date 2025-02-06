@@ -1,6 +1,4 @@
 import React, { useRef, useState, useEffect } from "react";
-import Nobita from "../assets/nobita.png";
-import Gian from "../assets/gian.png";
 import { motion } from "framer-motion";
 
 
@@ -80,7 +78,7 @@ export default function Friends() {
         >
           {/* Left Image - Nobita */}
           <div className="bg-[#04A6D8] rounded-tl-2xl rounded-bl-2xl dark:bg-black md:flex justify-center items-center hidden">
-            <img src={Nobita} alt="Nobita" className="w-40" />
+            <img src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849123/doraemon/Nobita_lqzx1l.png"} alt="Nobita" className="w-40" />
           </div>
 
           {/* Tic-Tac-Toe Grid */}
@@ -98,7 +96,7 @@ export default function Friends() {
 
           {/* Right Image - Gian */}
           <div className="bg-[#04A6D8] rounded-tr-2xl rounded-br-2xl dark:bg-black md:flex justify-center items-center hidden">
-            <img src={Gian} alt="Gian" className="w-40" />
+            <img src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849142/doraemon/gian_ulkdin.png"} alt="Gian" className="w-40" />
           </div>
         </motion.div>
 
@@ -113,7 +111,7 @@ export default function Friends() {
                   className="flex justify-center items-center gap-1 md:h-screen h-96"
                   ref={targetDivRef}
                 >
-                  <img src={Nobita} className="w-40" />
+                  <img src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849123/doraemon/Nobita_lqzx1l.png"} className="w-40" />
                   <h2 className="md:text-7xl text-5xl dark:text-white">
                     Nobita Won !!
                   </h2>
@@ -129,7 +127,7 @@ export default function Friends() {
                   className="flex justify-center items-center gap-1 md:h-screen h-96"
                   ref={targetDivRef}
                 >
-                  <img src={Gian} className="w-40" />
+                  <img src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849142/doraemon/gian_ulkdin.png"} className="w-40" />
                   <h2 className="md:text-7xl text-5xl dark:text-white">
                     Gian Won !!
                   </h2>

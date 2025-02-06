@@ -1,6 +1,4 @@
 import React from "react";
-import img from "../assets/logo.png";
-import img2 from "../assets/cloud.png";
 import { motion } from "framer-motion";
 import Nav from "./Nav";
 
@@ -11,7 +9,7 @@ export default function Home() {
 
       {/* Animated Images */}
       <motion.img
-        src={img2}
+        src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849135/doraemon/cloud_sqlxhw.png"}
         alt=""
         className="w-[20rem] absolute left-0"
         initial={{ x: "100vw" }} // start from right outside of the screen
@@ -27,7 +25,7 @@ export default function Home() {
       />
 
       <motion.img
-        src={img}
+        src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849121/doraemon/logo_kr5flz.webp"}
         alt=""
         className="w-[20rem] absolute"
         initial={{ y: 100, x: 100 }}
@@ -44,7 +42,7 @@ export default function Home() {
       />
 
       <motion.img
-        src={img2}
+        src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849135/doraemon/cloud_sqlxhw.png"}
         alt=""
         className="w-[20rem] absolute right-0 bottom-1"
         initial={{ x: "100vw" }} // start from right outside of the screen

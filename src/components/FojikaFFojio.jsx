@@ -1,5 +1,4 @@
 import React from "react";
-import FojikaFFojioPic from "../assets/Fujiko_Fujio.jpg";
 import { motion } from "framer-motion";
 
 export default function FojikaFFojio() {
@@ -15,7 +14,7 @@ export default function FojikaFFojio() {
           initial={{ y: -100 }}
           whileInView={{ y: 0 }}
           transition={{ duration: 1.5 }}
-          src={FojikaFFojioPic}
+          src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849141/doraemon/Fujiko_Fujio_rbkzap.jpg"}
           alt="Fujiko Fujio"
           className="border-8 border-white rotate-12 md:absolute md:-top-2 md:left-32 md:w-72 w-60 mx-auto" // Adjust size and position as needed
         />

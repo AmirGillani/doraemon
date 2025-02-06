@@ -1,5 +1,4 @@
 import React from "react";
-import MessagePic from "../assets/message.png";
 import { motion } from "framer-motion";
 export default function Message() {
   return (
@@ -24,7 +23,7 @@ export default function Message() {
           </p>
         </div>
         <div>
-          <img src={MessagePic} alt="" className="w-fit" />
+          <img src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738850118/doraemon/message_jotkgr.png"} alt="" className="w-fit" />
         </div>
       </motion.div>
     </div>

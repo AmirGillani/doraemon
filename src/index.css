@@ -12,7 +12,7 @@ body{
 /* globals.css or tailwind.css */
 @font-face {
   font-family: Doraemon;  /* Use your font name */
-  src: url('./assets//font/DORAEMON.ttf');
+  src: url('https://res.cloudinary.com/dj5ph1k2r/raw/upload/v1738850610/doraemon/DORAEMON_wdxlc2.ttf');
   font-weight: normal;
   font-style: normal;
 }

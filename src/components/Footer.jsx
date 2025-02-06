@@ -16,8 +16,8 @@ export default function Footer() {
         <p> &copy; 2025 All rights reserved</p>
         <CiStar />
       </div>
-      <img src={FooterImg} alt="" className="dark:hidden" />
-      <img src={FooterImg2} alt="" className="hidden w-full dark:block" />
+      <img src={"https://res.cloudinary.com/dj5ph1k2r/image/upload/v1738849144/doraemon/download_nrdjik.png"} alt="" className="w-[80%]" />
+      
     </motion.div>
   );
 }
