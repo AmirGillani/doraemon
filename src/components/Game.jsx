@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import Nobita from "../assets/Nobita.png";
+import Nobita from "../assets/nobita.png";
 import Gian from "../assets/gian.png";
 import { motion } from "framer-motion";
 
